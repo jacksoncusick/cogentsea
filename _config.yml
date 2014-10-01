@@ -6,4 +6,4 @@ baseurl: "/cogentsea"
 paginate: 10
 
 markdown: kramdown
-permalink: pretty
+permalink: /cogentsea/pretty
