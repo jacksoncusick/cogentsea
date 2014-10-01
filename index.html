@@ -44,7 +44,7 @@ title: Cogentsea Co.
 <!-- This loops through the paginated posts -->
 <ol>
   {% for post in paginator.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a>
+    <li><a href="{{ post.baseurl }}">{{ post.title }}</a>
     	<br><small><em>{{ post.excerpt | strip_html }}</em></small></li>
   {% endfor %}
 </ol>
