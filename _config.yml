@@ -1,7 +1,7 @@
 name: "Cogentsea Copy Co."
 description: ""
 
-url: http://jacksoncusick.github.io/cogentsea
+baseurl: "http://jacksoncusick.github.io/cogentsea"
 
 paginate: 10
 
