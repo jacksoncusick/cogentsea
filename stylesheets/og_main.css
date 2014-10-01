@@ -1,0 +1,111 @@
+/* typography */
+
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+
+
+
+/* base */
+
+html, body {
+	background: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	background-color: #faf9ee;
+}
+body {
+	font: large;
+	word-spacing: 0.1em;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+
+.masthead {
+	max-width: 960px;
+	text-align: left;
+	font-size: 16px;
+	
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', serif;
+	color: #333333;
+	text-align: left;
+}
+
+h1 {
+	max-width: 980px;
+	font-size: 60px;
+	font-style: bold;
+	line-height: 1.1;
+	margin: .25em 0;
+	margin-top: .5em;
+	font-weight: 700;
+}
+h2 {
+	max-width: 960px;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1.31125;
+	margin: .75em 0;
+	clear: both;
+}
+
+h3 {
+	font-size: 25px;
+	line-height: 1.167;
+	margin: 1.0em 0;
+}
+
+p, ul, ol {
+	max-width: 600px;
+	font-family: 'Vollkorn', serif;
+	font-size: 16px;
+	margin: 1.556em 0;
+	color: #444444;
+}
+p {
+	margin: 1em;
+}
+.dear-reader {
+	margin-top: 3em;
+}
+ol {
+	list-style-type: lower-roman;
+}
+
+li {
+	margin: .25em;
+}
+
+.contents {
+	margin-top: 1em;
+}
+
+.footer {
+	text-align: left;
+	margin-top: 3.0em;
+}
+
+/* links */
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: RosyBrown;
+}
+a:visited {
+	color: RosyBrown;
+}
+a:link:hover, a:visited:hover {
+	border-bottom: 1px solid;
+}
+
+
+
+

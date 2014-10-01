@@ -1,0 +1,82 @@
+---
+layout: default
+title: Cogentsea Co.
+---
+
+<hgroup>
+<h1>For goal-oriented readers...</h1>
+<h2>Strategies for choosing, comprehending, and consolidating high quality reading material. </h2>
+</hgroup>
+
+
+<!-- Header -->
+
+<!-- Body Section -->
+<section>
+<p class="dear-reader">Dear Reader,
+<p>Do you like to read? 
+<p>Good. Me too. Now I've got a few questions for you.
+<p>How do you read? Why?
+<p>See, if you’re a goal-oriented reader like me, you probably want to know how you can read better. 
+<p>What do I mean by that? 
+<p>I mean you want to read faster, perhaps. Or, if you’re really serious (as I hope you are), you just want to get more out of whatever time you do spend reading. And if that's you, you’ll most likely know that reading effectively doesn’t necessarily entail reading faster. 
+<p>If you didn’t know that you might be asking, “How else?”
+<p>By reading with a strategy. What that means is 1) knowing your end goal and 2) having principles in place (perhaps even in sequence) for the purpose of reaching that goal. 
+<p>It means knowing all the essential steps involved in reaching a goal, and being capable of finding and using the most appropriate tactics to progress toward and past each one.
+<p>While it certainly can be more complicated than that, I think that’s an appropriately simple definition. Essentially, to have a strategy is to know your end goal along with all the smaller goals required to get there.
+<p>That’s what this blog is about.
+<p>So when I ask, “How do you read?” I’m really asking a whole set of questions.
+<ul>
+<li>Why do you read? What do you want to get out of it?
+<li>How do you set about achieving that? What are the essential stages in understanding a book?
+<li>How do you achieve each of those? What are your tactics?
+<li>Do you take notes? How?
+<li>How do you decide which books to read in the first place?
+</ul>
+<p>If you’ve thought about any of those questions before, I want to hear from you. What have you come up with? Write me an essay, a tweet, or anything in between. Your ideas matter here.
+</section>
+
+
+<!-- Table Of Contents -->
+
+<h3 class="contents">Contents</h3>
+
+<!-- This loops through the paginated posts -->
+<ol>
+  {% for post in paginator.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a>
+    	<br><small><em>{{ post.excerpt | strip_html }}</em></small></li>
+  {% endfor %}
+</ol>
+<nav>
+	<p><small>
+        {% if paginator.previous_page %}
+          {% if paginator.previous_page == 1 %}
+          <a href="/">Prev</a>
+          {% else %}
+          <a href="/page{{ paginator.previous_page }}">Prev</a>
+          {% endif %}
+        {% else %}
+        <span class="disabled">Prev</span>
+        {% endif %}
+        {% if paginator.page == 1 %}
+        <span class="active">1</span>
+        {% else %}
+        <a href="/">1</a>
+        {% endif %}
+        {% for count in (2..paginator.total_pages) %}
+          {% if count == paginator.page %}
+          <span class="active">{{ count }}</span>
+          {% else %}
+          <a href="/page{{ count }}">{{ count }}</a>
+          {% endif %}
+        {% endfor %}
+        {% if paginator.next_page %}
+        <a href="/page{{ paginator.next_page }}">Next</a>
+        {% else %}
+        <span class="disabled">Next</span>
+        {% endif %}
+      </small></p>
+</nav>
+
+<!-- Footer -->
