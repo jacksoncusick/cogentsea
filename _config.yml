@@ -6,4 +6,4 @@ baseurl: cogentsea.co
 paginate: 10
 
 markdown: kramdown
-permalink: "/:title"
+permalink: pretty
