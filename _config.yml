@@ -1,7 +1,7 @@
 name: "Cogentsea Copy Co."
 description: ""
 
-baseurl: "/"
+baseurl: "/cogentsea"
 
 paginate: 10
 
