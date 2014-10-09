@@ -6,4 +6,4 @@ baseurl: "http://jacksoncusick.github.io/cogentsea/"
 paginate: 10
 
 markdown: kramdown
-permalink: "cogentsea.co/:title"
+permalink: "/:title"
