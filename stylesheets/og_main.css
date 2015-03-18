@@ -1,6 +1,6 @@
 /* typography */
 
-@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400,400italic,700,700italic);
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
@@ -63,7 +63,7 @@ h3 {
 
 p, ul, ol {
 	max-width: 600px;
-	font-family: 'EB Garamond', serif;
+	font-family: 'Volkhov', serif;
 	font-size: 16px;
 	margin: 1.556em 0;
 	color: #444444;
