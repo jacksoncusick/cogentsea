@@ -1,6 +1,6 @@
 /* typography */
 
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
@@ -63,7 +63,7 @@ h3 {
 
 p, ul, ol {
 	max-width: 600px;
-	font-family: 'Vollkorn', serif;
+	font-family: 'EB Garamond', serif;
 	font-size: 16px;
 	margin: 1.556em 0;
 	color: #444444;
