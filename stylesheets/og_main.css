@@ -143,13 +143,6 @@ blockquote::after{
   content: "";
 }
 
-blockquote a{
-  text-decoration: none;
-  background: #eee;
-  cursor: pointer;
-  padding: 0 3px;
-  color: #c76c0c;
-}
 
 blockquote a:hover{
  color: #666;
