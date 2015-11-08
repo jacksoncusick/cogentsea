@@ -115,6 +115,7 @@ blockquote{
   padding: 15px 20px 15px 45px;
   margin: 0 0 20px;
   position: relative;
+  max-width: 500px;
   
   /*Font*/
   font-family: 'Vollkorn', serif;
