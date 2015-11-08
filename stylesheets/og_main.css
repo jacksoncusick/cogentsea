@@ -116,13 +116,14 @@ blockquote{
   margin: 0 0 20px;
   position: relative;
   max-width: 500px;
+  text-align: center;
   
   /*Font*/
   font-family: 'Vollkorn', serif;
   font-size: 16px;
   line-height: 1.2;
   color: #666;
-  text-align: center;
+  
 }
 
 blockquote::before{
