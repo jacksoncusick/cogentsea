@@ -71,6 +71,7 @@ p, ul, ol {
 	margin: 1.556em 0;
 	color: #000000;
 	font-size: 20px;
+	display: block;
 }
 p {
 	margin: 2em;
