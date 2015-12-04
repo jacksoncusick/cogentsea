@@ -24,12 +24,12 @@ published: true
 <h3 class="contents">Contents</h3>
 
 <!-- This loops through the paginated posts -->
-<ol>
+<ul>
   {% for post in paginator.posts %}
     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     	<br><small><em>{{ post.excerpt | strip_html }}</em></small></li>
   {% endfor %}
-</ol>
+</ul>
 <nav>
 	
 </nav>
