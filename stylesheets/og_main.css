@@ -73,6 +73,7 @@ p, ul, ol {
 	color: #000000;
 	font-size: 20px;
 	display: block;
+	list-style-type: none;
 }
 p {
 	margin: 2em;
