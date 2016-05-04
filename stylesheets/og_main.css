@@ -64,14 +64,14 @@ p, ul, ol {
 	max-width: 700px;
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
-	line-height: 25px;
+	line-height: 35px;
 	margin: 1.556em 0;
 	color: #000000;
 	display: block;
 	list-style-type: none;
 }
 p {
-	margin: 2em;
+	margin: 1em;
 }
 .dear-reader {
 	margin-top: 3em;
