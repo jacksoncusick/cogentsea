@@ -3,7 +3,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 
-@import url(https://fonts.googleapis.com/css?family=Cousine:400,700,400italic);
 
 /* base */
 
@@ -64,7 +63,7 @@ h3 {
 
 p, ul, ol {
 	max-width: 700px;
-	font-family: 'Cousine', sans-serif;
+	font-family: 'Droid', serif;
 	font-size: 16px;
 	line-height: 25px;
 	margin: 1.556em 0;
