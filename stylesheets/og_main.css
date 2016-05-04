@@ -111,6 +111,7 @@ a:link:hover, a:visited:hover {
 
  blockquote.style2 {
   font: 14px/22px 'Droid Serif', serif;
+  font-style: italic;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 50px;
