@@ -1,4 +1,5 @@
 /* typography */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 
@@ -27,7 +28,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Oswald', sans-serif;
 	color: #000000;
 	text-align: center;
 }
