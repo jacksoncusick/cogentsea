@@ -109,6 +109,12 @@ a:link:hover, a:visited:hover {
 	border-bottom: 1px solid;
 }
 
-  
+ blockquote.style2 {
+  font: 14px/22px 'Droid Serif', serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc; 
 
 
